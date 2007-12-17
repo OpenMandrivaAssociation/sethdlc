@@ -6,7 +6,6 @@ License:	GPL
 Group:          System/Kernel and hardware
 URL:		http://hq.pm.waw.pl/hdlc/
 Source0:	http://hq.pm.waw.pl/hdlc/%{name}-%{version}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 Sethdlc utility for 2.4/2.6 kernels. The sethdlc utility is used
