@@ -1,7 +1,7 @@
 Summary:	Sethdlc utility for 2.4/2.6 kernels
 Name:		sethdlc
 Version:	1.15
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:          System/Kernel and hardware
 URL:		http://hq.pm.waw.pl/hdlc/
