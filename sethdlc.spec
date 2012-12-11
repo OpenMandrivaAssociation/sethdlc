@@ -34,3 +34,34 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_bindir}/sethdlc
+
+
+%changelog
+* Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.15-5mdv2010.0
++ Revision: 445100
+- rebuild
+
+* Fri Mar 06 2009 Antoine Ginies <aginies@mandriva.com> 1.15-4mdv2009.1
++ Revision: 350115
+- 2009.1 rebuild
+
+* Sun Jul 20 2008 Oden Eriksson <oeriksson@mandriva.com> 1.15-3mdv2009.0
++ Revision: 239156
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Mon Jun 26 2006 Oden Eriksson <oeriksson@mandriva.com> 1.15-2mdv2007.0
+- rebuild
+
+* Thu May 05 2005 Oden Eriksson <oeriksson@mandriva.com> 1.15-2mdk
+- rebuilt with gcc4
+
+* Sun Dec 26 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 1.15-1mdk
+- initial mandrake package
+
