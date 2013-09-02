@@ -1,2 +1,5 @@
+removed_sources:
+  sethdlc-1.15.tar.bz2: 65c0a0924d8bde76058e5eebe53aea6924cce472
 sources:
-  "sethdlc-1.15.tar.bz2": 65c0a0924d8bde76058e5eebe53aea6924cce472
+  sethdlc-1.18.tar.gz: bd0f9dd333ed05ce145a78c6fb51058b283c769a
+  sethdlc-1.18.tar.gz.sign: 855b70812c057db9d74c4cd4b09c7f7d15ad6300
