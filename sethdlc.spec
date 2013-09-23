@@ -3,12 +3,13 @@
 Summary:	Sethdlc utility for 2.4/2.6 kernels
 Name:		sethdlc
 Version:	1.18
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:          System/Kernel and hardware
 URL:		http://hq.pm.waw.pl/hdlc/
 Source0:	http://www.kernel.org/pub/linux/utils/net/hdlc/%{name}-%{version}.tar.gz
 Source1:	http://www.kernel.org/pub/linux/utils/net/hdlc/%{name}-%{version}.tar.gz.sign
+Patch0:		sethdlc-no-kernel-headers.patch
 
 %description
 Sethdlc utility for 2.4/2.6 kernels. The sethdlc utility is used to configure
@@ -19,6 +20,9 @@ kernel networking.
 %prep
 
 %setup -q -n %{name}-%{version}
+%apply_patches
+# remove prebuilt binary included in the tarball
+rm -f sethdlc
 
 %build
 %setup_compile_flags
