@@ -20,7 +20,7 @@ kernel networking.
 %prep
 
 %setup -q -n %{name}-%{version}
-%apply_patches
+%autopatch -p1
 # remove prebuilt binary included in the tarball
 rm -f sethdlc
 
