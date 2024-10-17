@@ -6,7 +6,7 @@ Version:	1.18
 Release:	13
 License:	GPLv2+
 Group:          System/Kernel and hardware
-URL:		http://hq.pm.waw.pl/hdlc/
+URL:		https://hq.pm.waw.pl/hdlc/
 Source0:	http://www.kernel.org/pub/linux/utils/net/hdlc/%{name}-%{version}.tar.gz
 Source1:	http://www.kernel.org/pub/linux/utils/net/hdlc/%{name}-%{version}.tar.gz.sign
 Patch0:		sethdlc-no-kernel-headers.patch
