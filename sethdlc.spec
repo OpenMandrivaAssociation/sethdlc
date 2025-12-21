@@ -11,6 +11,7 @@ Source0:	http://www.kernel.org/pub/linux/utils/net/hdlc/%{name}-%{version}.tar.g
 Source1:	http://www.kernel.org/pub/linux/utils/net/hdlc/%{name}-%{version}.tar.gz.sign
 Patch0:		sethdlc-no-kernel-headers.patch
 
+BuildRequires:	make
 %description
 Sethdlc utility for 2.4/2.6 kernels. The sethdlc utility is used to configure
 certain HDLC cards. General HDLC layer for Linux is an interface between
